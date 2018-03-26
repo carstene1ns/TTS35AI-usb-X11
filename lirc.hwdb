@@ -1,0 +1,35 @@
+# Bus=0003 Vendor=147a Product=e02d Version=0110
+# Name="USB IR Receiver USB IR Receiver"
+
+evdev:input:b0003v147ApE02De0110*
+# KEYBOARD_KEY_<scancode>=<keycode> # original
+ KEYBOARD_KEY_70008=program         # e
+ KEYBOARD_KEY_70009=exit            # f
+ KEYBOARD_KEY_7000c=info            # i
+ KEYBOARD_KEY_70010=mute            # m
+ KEYBOARD_KEY_70013=playpause       # p
+ KEYBOARD_KEY_70015=channel # -/--    r
+ KEYBOARD_KEY_70016=ab      # a/b     s
+ KEYBOARD_KEY_70017=text            # t
+ KEYBOARD_KEY_70019=zoom    # ext     v
+ KEYBOARD_KEY_7001e=numeric_1       # 1
+ KEYBOARD_KEY_7001f=numeric_2       # 2
+ KEYBOARD_KEY_70020=numeric_3       # 3
+ KEYBOARD_KEY_70021=numeric_4       # 4
+ KEYBOARD_KEY_70022=numeric_5       # 5
+ KEYBOARD_KEY_70023=numeric_6       # 6
+ KEYBOARD_KEY_70024=numeric_7       # 7
+ KEYBOARD_KEY_70025=numeric_8       # 8
+ KEYBOARD_KEY_70026=numeric_9       # 9
+ KEYBOARD_KEY_70027=numeric_0       # 0
+ KEYBOARD_KEY_70028=ok              # enter
+ KEYBOARD_KEY_7003b=menu            # f2
+ KEYBOARD_KEY_7003e=red             # f5
+ KEYBOARD_KEY_7003f=green           # f6
+ KEYBOARD_KEY_70040=yellow          # f7
+ KEYBOARD_KEY_70041=blue            # f8
+ KEYBOARD_KEY_70042=tv              # f9
+ KEYBOARD_KEY_7004f=volumeup        # right
+ KEYBOARD_KEY_70050=volumedown      # left
+ KEYBOARD_KEY_70051=channeldown     # down
+ KEYBOARD_KEY_70052=channelup       # up
